@@ -1,0 +1,33 @@
+body{
+    
+    background: radial-gradient(circle, rgba(174,238,236,1) 0%, rgba(148,187,233,1) 100%);
+position: relative;
+padding-bottom: 3em;
+min-height: 90vh;
+}
+
+
+.logo{
+ 
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(83,45,253,1) 100%);
+display: flex;
+justify-content: center;
+}
+
+
+img {
+    opacity: 1;
+
+  }
+
+  .inicio{
+   margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  footer{
+    position: absolute;
+    bottom: 0;
+    padding: 1em;
+  }
