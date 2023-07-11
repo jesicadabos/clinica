@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
     
     background: radial-gradient(circle, rgba(174,238,236,1) 0%, rgba(148,187,233,1) 100%);
@@ -29,7 +34,7 @@ img {
   footer{
     position: absolute;
     bottom: 0;
-    padding: 1em;
+    
   }
 
   .medico{
@@ -57,5 +62,35 @@ img {
     display: flex;
     justify-content: center;
   }
-  
-  
+ 
+  /*formulario*/
+
+  .sala{
+    height: 50px;
+  }
+
+  #contenedorPadre {
+    position: relative;
+  }
+  #contenedorHijo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+
+  .ima2{
+    height: 300px;
+    
+  }
+  .imagen{
+    
+text-align: center;
+
+    
+  }
+
+.mapa{
+  height: 300px;
+  width: 300px;
+}

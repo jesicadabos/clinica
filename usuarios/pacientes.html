@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="./imagenes/ico.ico"/>
+   
     <title>Pacientes</title>
 </head>
 <body>
@@ -14,23 +17,35 @@
     </header>
     <main>
 <nav>
-    <div>
-        <ul>
-            <li>nombre</li>
-            <li>apellido</li>
-            <li>telfono</li>
-            <li>dirección</li>
-            <li><a href="legajos.html">legajo</a></li>
+    <div id="contenedorPadre">
+       
+    <div id="contenedorHijo" class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../imagenes/paciente.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h2 class="card-title">Marcela Colibri</h2>
+              <ul>
+           
+            <li>Telefono</li>
+            <li>Dirección</li>
+            <li>Turno</li>
+            
+
             <li><a href="/index.html">inicio</a></li>
         </ul>
+             </div>
+          </div>
+        </div>
+      </div>
+    <div>
+        
     </div>
+</div>
 </nav>
     </main>
-    <footer>
-        <h2>
-             Programadores: Rocio Calderon, Tomas, Dabos Jesica
-        </h2>
-           
-        </footer>
+  
 </body>
 </html>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/estilos.css">
     <title>lejagos</title>
 </head>
@@ -15,8 +16,77 @@
     <main>
 <nav>
     <div>
-        <h2>historia clinica</h2>
-        <ul>
+        <h2>Formulario</h2>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+              <div class="valid-feedback">
+                
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+              <div class="valid-feedback">
+               
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label">Usuario</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                <div class="invalid-feedback">
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+              <div class="invalid-feedback">
+                
+              </div>
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">sexo</label>
+              <select class="form-select" aria-label="Default select example">
+               
+                <option value="1">Masculino</option>
+                <option value="2">Femenino</option>
+                <option value="3">Otro</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="input-group mb-3">
+                <label class="input-group-text" for="inputGroupSelect01">Ocupación</label>
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>elija una opción</option>
+                  <option value="1">medico</option>
+                  <option value="2">personal</option>
+                  <option value="3">paciente</option>
+                </select>
+              </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  <a href="">terminos y condiciones</a>
+                </label>
+                <div class="invalid-feedback">
+                 
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+          </form>
+<!--
+      <ul>
             <h3>datos de identificación</h3>
             <li>nombre y apellido</li>
             <li>telfono</li>
@@ -25,21 +95,21 @@
             <li>documento de identidad</li>
             <li>edad</li>
             <li>estado civil</li>
-            <li>sexo</li>
-            <li>nuemero de hijos</li>
+            <li>genero</li>
+            <li>numero de hijos</li>
             <li>grupo sanguineo </li>
             <li>aseguradora</li>
-            <li>lugar de nacimiento</li>
-            <li>Motivo de consulta</li>
-            <li>emfermedades</li>
+            <li>ocupacion</li>
             <li><a href="/index.html">inicio</a></li>
         </ul>
+-->
+      
     </div>
 </nav>
     </main>
     <footer>
         <h2>
-             Programadores: Rocio Calderon, Tomas, Dabos Jesica
+             Programadores:  Dabos Jesica
         </h2>
            
         </footer>
